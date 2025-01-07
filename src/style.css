@@ -1,0 +1,35 @@
+.field-button {
+	background-color: white;
+	border: 1px solid darkgrey;
+	border-radius: 0.25rem;
+	color: black;
+	cursor: pointer;
+	font-size: 0.875em;
+	line-height: normal;
+	padding: 0.5rem 1rem;
+
+	&:hover {
+		background-color: #eeeeee;
+		color: black;
+	}
+
+	&:active,
+	&:visited {
+		background-color: white;
+		color: black;
+	}
+
+	/* Boilerplate - Optional: for disabled element */
+	&[disabled] {
+		background-color: #eeeeee;
+		color: #777777;
+		cursor: not-allowed;
+	}
+
+	/* Boilerplate - Optional: for anchor element */
+	&:is(a) {
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+	}
+}
