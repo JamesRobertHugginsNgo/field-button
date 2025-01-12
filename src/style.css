@@ -1,3 +1,5 @@
+/* BOILERPLATE */
+
 .field-button {
 	background-color: white;
 	border: 1px solid darkgrey;
@@ -19,14 +21,12 @@
 		color: black;
 	}
 
-	/* Boilerplate - Optional: for disabled element */
 	&[disabled] {
 		background-color: #eeeeee;
 		color: #777777;
 		cursor: not-allowed;
 	}
 
-	/* Boilerplate - Optional: for anchor element */
 	&:is(a) {
 		display: inline-block;
 		text-align: center;
